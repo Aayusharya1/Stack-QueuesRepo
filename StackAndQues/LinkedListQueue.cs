@@ -4,10 +4,10 @@ using System.Text;
 
 namespace StackAndQueues
 {
-    public class LinkedListQueue
+    class LinkedListQueue
     {
         Node head = null;
-        internal void Enqueue(int data)
+        public void Enqueue(int data)
         {
             Node node = new Node(data);
             if (head == null)
@@ -24,8 +24,17 @@ namespace StackAndQueues
             Console.WriteLine("{0} inserted into queue ", node.data);
 
         }
-
-        internal void Display()
+        public void Dequeue()
+        {
+            if (this.head == null)
+                Console.WriteLine("Queue is empty");
+            else
+            {
+                Console.WriteLine("Value removed is {0} ", this.head.data);
+                this.head = this.head.next;
+            }
+        }
+        public void Display()
         {
             Node temp = this.head;
             if (temp == null)
@@ -38,6 +47,7 @@ namespace StackAndQueues
                 Console.Write(temp.data + " ");
                 temp = temp.next;
             }
+            Console.WriteLine("\n__________________________________");
         }
 
     }
