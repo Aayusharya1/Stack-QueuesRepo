@@ -1,0 +1,13 @@
+C:\Users\Aayush Arya\source\repos\StackAndQues\StackAndQues\bin\Debug\netcoreapp3.1\StackAndQues.exe
+C:\Users\Aayush Arya\source\repos\StackAndQues\StackAndQues\bin\Debug\netcoreapp3.1\StackAndQues.deps.json
+C:\Users\Aayush Arya\source\repos\StackAndQues\StackAndQues\bin\Debug\netcoreapp3.1\StackAndQues.runtimeconfig.json
+C:\Users\Aayush Arya\source\repos\StackAndQues\StackAndQues\bin\Debug\netcoreapp3.1\StackAndQues.runtimeconfig.dev.json
+C:\Users\Aayush Arya\source\repos\StackAndQues\StackAndQues\bin\Debug\netcoreapp3.1\StackAndQues.dll
+C:\Users\Aayush Arya\source\repos\StackAndQues\StackAndQues\bin\Debug\netcoreapp3.1\StackAndQues.pdb
+C:\Users\Aayush Arya\source\repos\StackAndQues\StackAndQues\obj\Debug\netcoreapp3.1\StackAndQues.csprojAssemblyReference.cache
+C:\Users\Aayush Arya\source\repos\StackAndQues\StackAndQues\obj\Debug\netcoreapp3.1\StackAndQues.AssemblyInfoInputs.cache
+C:\Users\Aayush Arya\source\repos\StackAndQues\StackAndQues\obj\Debug\netcoreapp3.1\StackAndQues.AssemblyInfo.cs
+C:\Users\Aayush Arya\source\repos\StackAndQues\StackAndQues\obj\Debug\netcoreapp3.1\StackAndQues.csproj.CoreCompileInputs.cache
+C:\Users\Aayush Arya\source\repos\StackAndQues\StackAndQues\obj\Debug\netcoreapp3.1\StackAndQues.dll
+C:\Users\Aayush Arya\source\repos\StackAndQues\StackAndQues\obj\Debug\netcoreapp3.1\StackAndQues.pdb
+C:\Users\Aayush Arya\source\repos\StackAndQues\StackAndQues\obj\Debug\netcoreapp3.1\StackAndQues.genruntimeconfig.cache
