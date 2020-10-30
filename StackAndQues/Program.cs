@@ -7,11 +7,12 @@ namespace StackAndQueues
         static void Main(string[] args)
         {
             Console.WriteLine("Welcome to Stack and Queue demo");
-            LinkedList StacklinkedList = new LinkedList();
+            StackLinkedList StacklinkedList = new StackLinkedList();
             StacklinkedList.Push(70);
             StacklinkedList.Push(30);
             StacklinkedList.Push(56);
             StacklinkedList.Display();
+            StacklinkedList.IsEmpty();
         }
     }
 }
