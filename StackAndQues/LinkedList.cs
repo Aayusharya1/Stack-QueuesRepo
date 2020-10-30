@@ -4,7 +4,7 @@ using System.Text;
 
 namespace StackAndQueues
 {
-    class LinkedList
+    public class LinkedList
     {
         private Node top;
         public LinkedList()
@@ -30,6 +30,36 @@ namespace StackAndQueues
                 Console.Write(temp.data + " ");
                 temp = temp.next;
             }
+        }
+
+        public void Peek()
+        {
+            if (this.top == null)
+            {
+                Console.WriteLine("Stack is empty");
+                return;
+            }
+            Console.WriteLine("{0} is in the top of the stack ", this.top.data);
+        }
+
+        public void Pop()
+        {
+            if (this.top == null)
+            {
+                Console.WriteLine("Stack is empty, Deletion is not possible");
+                return;
+            }
+            Console.WriteLine("Value popped is {0} ", this.top.data);
+            this.top = this.top.next;
+        }
+        public void IsEmpty()
+        {
+            while (this.top != null)
+            {
+                Peek();
+                Pop();
+            }
+            Console.WriteLine("Stack is empty now");
         }
     }
 }
